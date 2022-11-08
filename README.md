@@ -8,7 +8,7 @@
 <img src="./src/assets/img/2.png" />
 
 ## Order
-<img sr=c"./src/assets/img/3.png" />
+<img src="./src/assets/img/3.png" />
 
 ## Empty Cart
 <img src="./src/assets/img/4.png" />
