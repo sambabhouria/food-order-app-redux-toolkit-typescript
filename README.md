@@ -1,46 +1,45 @@
-# Getting Started with Create React App
+# Food Order App with ReactJS, Redux-Toolkit, Typescript
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
+## Food Order App Redux
 
-## Available Scripts
+<img src"./src/assets/img/1.png" />
 
-In the project directory, you can run:
+## Cart
+<img src"./src/assets/img/2.png" />
 
-### `yarn start`
+## Order
+<img src"./src/assets/img/3.png" />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Empty Cart
+<img src"./src/assets/img/4.png" />
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+ ## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    1. Clone repository
 
-### `yarn build`
+    2. Go to directory where is the package.json file
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    3. Install required libraries
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    4.  npm i
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ ## Implementation
 
-### `yarn eject`
+ The project uses ReactJS, Redux, Typescript and Sass. It explores concepts of:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    1. Redux (Hooks, Store, Actions, Slice, State, Dispatch)
+    2. useState, useEffect
+    3. Interface
+    4. Event handlers
+    5. Sass modules
+    6. Spread operators
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Features
+<img src"./src/assets/img/2.png" />
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+    1. Cart control for adding correctly amounts if item is already in cart.
+    2. If item not in cart, add to it normaly.
+    3. Item removal in case of subtracting less then 1 amount, or subtracts amount.
+    4. Empty cart feature.
+    5. All features above are controlled via Redux dispatch actions.
