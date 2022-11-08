@@ -2,16 +2,16 @@
 
 ## Food Order App Redux
 
-<img src"./src/assets/img/1.png" />
+<img src="./src/assets/img/1.png" />
 
 ## Cart
-<img src"./src/assets/img/2.png" />
+<img src="./src/assets/img/2.png" />
 
 ## Order
-<img src"./src/assets/img/3.png" />
+<img sr=c"./src/assets/img/3.png" />
 
 ## Empty Cart
-<img src"./src/assets/img/4.png" />
+<img src="./src/assets/img/4.png" />
 
 
  ## Installation
@@ -36,7 +36,7 @@
     6. Spread operators
 
 ## Features
-<img src"./src/assets/img/2.png" />
+<img src="./src/assets/img/2.png" />
 
     1. Cart control for adding correctly amounts if item is already in cart.
     2. If item not in cart, add to it normaly.
